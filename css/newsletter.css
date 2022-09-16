@@ -1,0 +1,21 @@
+.newsletter-div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  .newsletter-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+  }
+  .paragraph-news{
+    color: #525250;
+    font-size:1em;
+    font-weight: 200;
+  }
+
+ 
+  

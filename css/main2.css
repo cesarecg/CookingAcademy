@@ -1,0 +1,925 @@
+html,body
+{
+    
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.842);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+a{
+ color: #82827f;
+}
+a:hover{
+  color: #3f4410;
+}
+.newsletter-div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.newsletter-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+}
+.login-btn {
+  padding: 13px 1px 12px;
+  background-color: #e0e593;
+  border-radius: 4px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #646464;
+  margin-bottom: 24px;
+  width: 400px;
+ }
+.login-btn:hover {
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+   }
+
+#center{
+  margin-top: -130px;
+  width: 900px;
+  height: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mobileMain{
+  display: none;
+}
+
+#tarjetas{
+  display: block;
+  margin-left:3%;
+  margin-right:3%;
+}
+.title-box{
+  color: 
+  #727957;
+  font-size: 1.8rem;
+  font-weight: 490;
+}
+.texto-navbar-mobile{
+  display:none;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.1s;
+}
+.col-cursos{
+  max-width: 60%; 
+   background-color: #f7f6f2;
+}
+.sidebar a:hover {
+  color: #020101;
+}
+.modal-title{
+  color:#646464;
+}
+/*cursos y pensum */
+
+.imagen-cursos{
+  display: block;
+  margin-top: -22px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+  height: 240px;
+}
+.form-control{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.navbar-logoC{ 
+  margin-top: -66px;
+  float:left;
+  opacity:0.6;
+  height: 64px;
+  width: 64px;
+}
+
+.title-cursos{
+  color: #5d5d52;
+  font-size: 1.725rem;
+  font-weight: 500;
+}
+.link-cursos{
+    color: #82827f;
+    font-size: 1rem;
+    font-weight: 600; 
+}
+.recetas-div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+}
+.imagen_recetas{
+  width: 200px;
+  height: 200px;
+}
+.imagen_eventos{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  width:350px;
+  height:350px;
+}
+.imagen-recetas{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  height: 200px;
+}
+.hard-divisor{
+  width: 100%;
+  border: 0.6px solid;
+  margin-top: 20px;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+#cursosMobile{
+  display: none;
+}
+.openbtn {
+  font-size: 48px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+}
+.tarjetas-mobile{
+  display: none;
+}
+.openbtn:hover {
+  background-color: #d5e4b8;
+}
+#abrirMenu {
+  transition: margin-right .5s;
+  padding: 16px;
+  margin-left: 0px !important;
+}
+.navbar{
+  background: #e9f9c8;
+}
+.box-img{
+  display:block;
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+  height:150px;
+}
+.multi-column {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -moz-column-fill: auto;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -webkit-column-fill: auto;
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: auto;
+  list-style-position: inside;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.texto-navbar {
+  display: block;
+  color: #979792;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem; 
+  font-weight: 700;
+}
+
+.navbar-logo {
+  float:left;
+  opacity:0.6;
+  height: 110px;
+  width: 110px;
+}
+.paragraph{
+  color: #525250;
+  font-size:1.1em;
+  font-weight: 200;
+}
+#mainNav {
+  
+padding:0px;
+margin:0px;
+height: 70px;
+}
+
+.card-recipes{
+  height: 200px;
+  width: 250px;
+}
+.card{
+  border: none !important;
+}
+/*Masthead*/
+
+.masthead {
+
+  opacity:0.6;
+  color: #6d9300;
+  background-image: url("../assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  padding-top: 19rem;
+  padding-bottom: 4.5rem;
+}
+
+header.masthead .masthead-subheading {
+  
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .masthead-heading {
+ 
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 480px) {
+  header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+.comercial{
+  color: #c2c77d;
+  font-size: 1.2925rem;
+  font-weight: 200;
+}
+.title{
+  color: #5d5d52;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+.card-title{
+  color: #5d5d52;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.title-footer{
+  color: #5d5d52;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.subtitle{
+  color: #8e9438;
+  font-size: 1.425rem;
+  font-weight: 450;
+}
+.icon{
+  margin: 5px;
+  height: 40px;
+  width:  39px;
+}
+.icon-y{
+  margin: 5px;
+  height: 55px;
+  width:  55px;
+}
+
+.imagenP{
+  width: 300px;
+  height: 300px;
+}
+
+.modal-content-1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  pointer-events: auto;
+  background-image: url("../assets/img/contrato.jpg");
+  background-size: cover;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+.modal-content-2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  pointer-events: auto;
+  background-image: url("../assets/img/form.jpeg");
+  background-size: cover;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+.modal-content-3{
+  position: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  pointer-events: auto;
+  font-family: "Karla", sans-serif;
+  background:linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1)), url('../assets/img/log.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+.btn-primary {
+  color: #7d832e;
+  background-color: #dddfc9;
+  border-color: #e0e593;
+  font-size: 1.725rem;
+  font-weight: 500;
+}
+.btn-footer{
+  width: 12em;
+}
+.btn-primary:hover{
+  background-color: #e0e593;
+  color: #000;
+}
+.breaker{
+  border: none;
+  background-color: rgb(255, 250, 250);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#bottomFooter{
+  display: none;
+}
+#footerMain{
+  display: block;
+}
+.contact-iconsMobile{
+  display: none;
+}
+#tarjetas-mobile{
+  display: none;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+@media (max-width: 450px) {
+  html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+  header.masthead {
+    opacity:0.6;
+    color: #6d9300;
+    background-image: url("../assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 0rem;
+  }
+  #center{
+    margin-top: -10px;
+    width: 300px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+  #mobileMain{
+    display: block;
+  }
+  #mainPage{
+    display:none;
+  }
+  .box-img{
+    display:block;
+    margin-left: 100px;
+    margin-right: auto;
+    width:120px;
+    height:120px;
+  }
+  .navbar{
+    background: #e9f9c8;
+  }
+  .navbar-logo {
+    opacity: 0.1;
+    float:left;
+    margin-top:-48px;
+    opacity:0.8;
+    height: 46px;
+    width: 46px;
+  }
+  .recetas-div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+  .imagen_recetas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95px;
+    height: 95px;
+  }
+  .imagen-recetas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95px;
+    height: 95px;
+  }
+  .title{
+    color: #5d5d52;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .card-title{
+    color: #5d5d52;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .title-box{
+    color: 
+    #727957;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .title-cursos{
+    color: #5d5d52;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  #mainNav {
+  
+    padding:0px;
+    margin:0px;
+    height: 50px;
+    }
+  .texto-navbar{
+    display: none;
+    color: #979792;
+    font-size: 1rem; 
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    padding: 0px;
+  }
+  .texto-navbar-mobile{
+    display:block;
+    color: #979792;
+    font-size: 1.1rem; 
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    padding: 0px;
+  }
+  .sub-texto-navbar{
+      color: #979792;
+      font-size: 1.9rem; 
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -5px;
+      font-weight: 790;
+      padding: 0px;
+    
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    margin-left:50px;
+    padding:0px;
+    font-size: 36px;
+  }
+  .link{
+    float: right;
+    position: absolute;
+    top:85px;
+    right:37%;
+    font-size: 10px;
+  }
+
+  .linkC-pasteleria{
+    float: right;
+    position: absolute;
+    top:75%;
+    right:5%;
+    font-size: 10px;
+  }
+  .linkC-panadero{
+    float: right;
+    position: absolute;
+    margin-bottom: 1%;
+    top:75%;
+    right:5%;
+    font-size: 10px;
+  }
+  .linkC-alta{
+    float: right;
+    position: absolute;
+    top:75%;
+    right:5%;
+    font-size: 10px;
+  }
+  .link-right{
+    float: right;
+    position: absolute;
+    top:85px;
+    right:7%;
+    font-size: 10px;
+  }
+  
+  #abrirMenu {
+    transition: margin-right .5s;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+    float:right;
+    margin-left: 0px !important;
+  }
+  .openbtn {
+    margin-top: 0px;
+    margin-left: 0px !important;
+    font-size:42px;
+    cursor:pointer;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    border: none;
+  }
+  .multi-column {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -moz-column-fill: auto;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    -webkit-column-fill: auto;
+    column-count: 2;
+    column-gap: 20px;
+    column-fill: auto;
+    list-style-position: inside;
+    font-size: 0.8em;
+    font-weight: 100;
+    padding:10px;
+  }
+  .icon {
+    margin: 1px;
+    height: 25px;
+    width:  19px;
+  }
+  .icon-y {
+    margin: 1px;
+    height: 35px;
+    width:  35px;
+  }
+  .contact-field{
+    display: none;
+  }
+  #footerMain{
+    display: none;
+  }
+  .contact-iconsMobile{
+    display: block;
+  }
+  #bottomFooter{
+    display: inline-block;
+  }
+  .btn-footer{
+    font-size: 16px;
+    width: 9em;
+  }
+  .paragraph{
+    color: #525250;
+    font-size:0.7rem;
+    font-weight: 20;
+  }
+  .paragraph-tarjetas{
+    color: #525250;
+    font-size:0.79rem;
+    font-weight: 20;
+  }
+  .comercial{
+    color: #cdceca;
+    font-size: 0.70rem;
+    font-weight: 100;
+   
+  }
+  #cursosMain{
+    display: none;
+  }
+  #cursosMobile{
+    display: inline-flex;
+  }
+  .link-cursos{
+    
+    color: #82827f;
+    font-size: 0.6rem;
+    font-weight: 600; 
+}
+  .imagen-cursos{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+    height:150px ;
+  }
+  
+  .title-footer{
+    color: #5d5d52;
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+  #footer-main{
+    display: none;
+  }
+  .subtitle{
+    margin-right: -1px;
+    color: #8e9438;
+    font-size: 0.725rem;
+    font-weight: 150;
+  }
+  .btn-primary {
+    color: #7d832e;
+    background-color: #dddfc9;
+    border-color: #e0e593;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .modal-content-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    pointer-events: auto;
+    background-image: url("../assets/img/contrato.jpg");
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+  }
+  .btn-footer{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7em;
+    width: 14em;
+    display: block;
+  }
+.imagenP {
+  display: block;
+  margin-right: auto;
+  margin-left:auto;
+  width: 120px;
+  height: 120px;
+}
+.breaker{
+  border: none;
+  background-color: rgb(255, 250, 250);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imagen-mobile {
+  display: block;
+  margin-right: auto;
+  margin-left:auto;
+  width: 100px;
+  height: 100px;
+}
+.contact-icons-mobile{
+  display: block;
+}
+.navbar-logoC{
+  display: inline-flex;
+  opacity: 0.1;
+  float:left;
+  margin-top:-48px;
+  opacity:0.8;
+  height: 46px;
+  width: 46px;
+}
+#tarjetas-mobile{
+  display: inline-flex;
+}
+#tarjetas{
+  display: none;
+}
+}
+
+@media only screen and (min-width: 451px) and (max-width: 1109px) {
+  header.masthead {
+    opacity:0.6;
+    color: #6d9300;
+    background-image: url("../assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    padding-top: 16rem;
+    padding-bottom: 4rem;
+  }
+  #mobileMain{
+    display: none;
+  }
+  #center{
+    margin-top: -10%;
+    width: 600px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #abrirMenu {
+    transition: margin-right .5s;
+    padding: 0px;
+    margin: 10px;
+    float:right;
+    margin-left: 0px !important;
+  }
+  .texto-navbar-mobile{
+    display:none;
+  }
+  .title{
+    color: #5d5d52;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .card-title{
+    color: #5d5d52;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .title-box{
+    color: #727957;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .title-cursos{
+    color: #5d5d52;
+    font-size: 1.725rem;
+    font-weight: 300;
+  }
+  
+  .texto-navbar{
+    display: inline-block;
+    color: #979792;
+    font-size: 2.5rem; 
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    padding: 0px;
+  }
+  .imagenP {
+    width: 200px;
+    height: 190px;
+  }
+  .modal-content-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    pointer-events: auto;
+    background-image: url("../assets/img/contrato.jpg");
+    background-size: cover;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+  }
+  .paragraph{
+    color: #525250;
+    font-size:1.2em;
+    font-weight: 200;
+  }
+  #cursosMobile{
+    display: none;
+  }
+  .navbar-logoC{ 
+    margin-top: -66px;
+    float:left;
+    opacity:0.6;
+    height: 64px;
+    width: 64px;
+  }
+  .multi-column {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -moz-column-fill: auto;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    -webkit-column-fill: auto;
+    column-count: 2;
+    column-gap: 20px;
+    column-fill: auto;
+    list-style-position: inside;
+    font-size: 0.85em;
+    font-weight: 700;
+  }
+  .box-img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    height:150px;
+  }
+  .imagen-cursos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+  }
+  #tarjetas{
+    display: block;
+  }
+  #footerMain{
+    display: none;
+  }
+  .btn-footer{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.6em;
+    width: 14em;
+    display: block;
+  }
+  .contact-iconsMobile{
+    display: block;
+  }
+  #bottomFooter{
+    display: inline-block;
+  }
+}
